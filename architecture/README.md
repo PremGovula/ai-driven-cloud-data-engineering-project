@@ -1,0 +1,9 @@
+## Architecture Overview
+
+This project follows a cloud-native AI-driven data engineering architecture implemented on Microsoft Azure. The solution is designed to integrate data ingestion, AI processing, machine learning, and analytics within a secure and scalable cloud environment.
+
+At the core of the architecture is an Azure AI Foundry workspace, which acts as the central control plane for managing AI models, projects, deployments, and monitoring. Supporting this workspace are Azure AI Services, including Language, Speech, Vision, and Generative AI models, which provide APIs for text analysis, sentiment detection, entity recognition, speech transcription, and image analysis. These services enable intelligent processing of unstructured data such as text, audio, and images.
+
+Data engineering workflows are executed using Azure Machine Learning and notebook-based pipelines. Raw datasets are ingested into the cloud environment, cleaned, normalised, and split into training and testing datasets. Machine learning pipelines are constructed using Azure ML Designer, following a modular and repeatable workflow that includes data preparation, model training, scoring, and evaluation. This architecture ensures reproducibility, scalability, and efficient experimentation with regression, classification, and clustering models.
+
+Security and governance are enforced through Azure-managed identities, role-based access control, and region-specific deployment. All resources are hosted within the same Azure region to minimise latency and improve service integration. Logging, monitoring, and audit data are centrally managed to support operational visibility, compliance, and responsible AI practices. Overall, the architecture demonstrates a production-aligned design suitable for real-world AI-enabled cloud data engineering solutions.
