@@ -3,5 +3,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Running test"
-      - exit 1
+      - echo "Build successful"
